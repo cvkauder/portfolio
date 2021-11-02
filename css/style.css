@@ -117,10 +117,34 @@ nav ul {
      position: relative; 
      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
      border-radius: 10px; 
-     margin: 25px; 
+     margin: 25px;    
      background-image: url(/images/writing.jpg);
      background-size: cover; 
      background-position: center;
+ }
+
+ .a {
+    background-image: url(/images/downing_signals_2.jpg);
+    background-size: cover; 
+    background-position: center;
+ }
+
+ .b {
+    background-image: url(/images/tonya_sitephoto.jpg);
+    background-size: cover; 
+    background-position: center;
+ }
+
+ .c {
+    background-image: url(/images/fullspectrum_webphoto.jpg);
+    background-size: cover; 
+    background-position: center;
+ }
+
+ .d {
+    background-image: url(/images/seed_sitephoto_2.jpg);
+    background-size: cover; 
+    background-position: center;
  }
 
 .text-container {
