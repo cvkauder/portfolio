@@ -28,6 +28,36 @@ body {
     align-items: center;
 }
 
+.footer {
+    display: flex; 
+    flex-direction: row; 
+    background-color: var(--aqua);
+    color: white; 
+    border-radius: 10px; 
+    height: 100px; 
+    line-height: 100px; 
+    text-align: center;
+    padding: 1rem; 
+    bottom: 0;
+    left: 0;
+    align-items: center; 
+    justify-content:space-between;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none; 
+}
+
+.footer a:hover {
+    background-color: var(--beige); 
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 5px; 
+    border-color: var(--rose);
+    color: var(--rose);   
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -77,7 +107,7 @@ nav ul {
 
  .box {
      background-color: var(--beige);
-     border: 1px solid var(--rose);  
+     border: 3px solid var(--rose);  
      border-radius: 10px; 
      box-shadow: -10px 5px 20px rgba(0, 0, 0, 0.2);
      color: var(--aqua);
@@ -118,31 +148,71 @@ nav ul {
      box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
      border-radius: 10px; 
      margin: 25px;    
-     background-image: url(/images/writing.jpg);
+     background-image: url(../images/writing.jpg);
      background-size: cover; 
      background-position: center;
  }
 
+ /*WEB DESIGN PAGE ITEMS*/
+
  .a {
-    background-image: url(/images/downing_signals_2.jpg);
+    background-image: url(../images/downing_signals_2.jpg);
     background-size: cover; 
     background-position: center;
  }
 
  .b {
-    background-image: url(/images/tonya_sitephoto.jpg);
+    background-image: url(../images/tonya_sitephoto.jpg);
     background-size: cover; 
     background-position: center;
  }
 
  .c {
-    background-image: url(/images/fullspectrum_webphoto.jpg);
+    background-image: url(../images/fullspectrum_webphoto.jpg);
     background-size: cover; 
     background-position: center;
  }
 
  .d {
-    background-image: url(/images/seed_sitephoto_2.jpg);
+    background-image: url(../images/seed_sitephoto_2.jpg);
+    background-size: cover; 
+    background-position: center;
+ }
+
+ /*WRITING PAGE ITEMS*/
+
+ .e {
+    background-image: url(../images/christmaslist.jpg);
+    background-size: cover; 
+    background-position: center;
+ }
+
+ .f {
+    background-image: url(../images/glamour_job_photo.jpg);
+    background-size: cover; 
+    background-position: center;
+ }
+
+ .g {
+    background-image: url(../images/swim_team.jpg);
+    background-size: cover; 
+    background-position: center;
+ }
+
+ .h {
+    background-image: url(../images/vacation.jpg);
+    background-size: cover; 
+    background-position: center;
+ }
+
+ .i {
+    background-image: url(../images/quit_photo.jpg);
+    background-size: cover; 
+    background-position: center;
+ }
+
+ .j {
+    background-image: url(../images/bank.jpg);
     background-size: cover; 
     background-position: center;
  }
