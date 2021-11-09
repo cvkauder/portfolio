@@ -6,6 +6,7 @@
     --rose: #E57F84;
     --navy: #2F5061; 
     --beige: #f4eae6; 
+    --lightrose: #eca0a3; 
 }
 
 
@@ -34,12 +35,9 @@ body {
     background-color: var(--aqua);
     color: white; 
     border-radius: 10px; 
-    height: 100px; 
-    line-height: 100px; 
     text-align: center;
     padding: 1rem; 
-    bottom: 0;
-    left: 0;
+    margin: 0;
     align-items: center; 
     justify-content:space-between;
 }
@@ -107,7 +105,7 @@ nav ul {
 
  .box {
      background-color: var(--beige);
-     border: 3px solid var(--rose);  
+     border: 4px solid var(--rose);  
      border-radius: 10px; 
      box-shadow: -10px 5px 20px rgba(0, 0, 0, 0.2);
      color: var(--aqua);
@@ -259,7 +257,85 @@ overflow: hidden;
     color: var(--rose);
 }
 
- /*.portfolio {
+.headshot {
+    width: 300px; 
+    height: 350px; 
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; 
+    margin: 20px;  
+    float: left; 
+}
+.bio p {
+    color: var(--navy);
+}
+
+.bio {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+/*Contact Form*/
+
+.container {
+    border: 4px solid var(--rose); 
+    border-radius: 10px;
+    background-color: var(--beige);
+    color: var(--navy);
+    padding: 15px;
+    margin: 20px; 
+  }
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: var(--rose);
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: var(--lightrose);
+  }
+
+/* Responsive Nav Bar */
+ @media all and (min-width: 600px) {
+     .hero {
+         flex-direction: row; 
+     }
+ }
+ @media all and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    nav ul li {
+        text-align: center;
+    }
+    .bio {
+        flex-direction: column; 
+    }
+    .footer {
+        flex-direction: column; 
+    }
+    .mainpage {
+        grid-template-columns: 1fr; 
+    }
+}
+/*.portfolio {
      display: grid; 
      height: 100%; 
      grid-template-columns: repeat (3 1fr);
@@ -276,22 +352,3 @@ overflow: hidden;
      height: 30vh; 
      width: 30vw; 
  }*/
-
-/* Responsive Nav Bar */
- @media all and (min-width: 600px) {
-     .hero {
-         flex-direction: row; 
-     }
- }
- @media all and (max-width: 600px) {
-    nav ul {
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    nav ul li {
-        text-align: center;
-    }
-    .mainpage {
-        grid-template-columns: 1fr; 
-    }
-}
