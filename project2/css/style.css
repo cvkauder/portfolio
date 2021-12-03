@@ -9,6 +9,9 @@
     --lightrose: #eca0a3; 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
 body {
     font-family: Raleway, sans-serif; 
@@ -198,7 +201,7 @@ nav ul {
      flex-flow: wrap; 
  }
 
- .writing-item, .web-item, .graphic-item {
+ .project-item {
      width: 300px; 
      height: 300px; 
      background: #fff;
